@@ -1,7 +1,10 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import 'chart.js'; // Importa chart.js
+import router from './router'; // Importa el enrutador
+
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 
-createApp(App).mount('#app');
+const app = createApp(App);
+app.use(router);
+app.mount('#app');
