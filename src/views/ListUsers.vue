@@ -1,6 +1,7 @@
 <template>
   <div class="card">
     <div class="card-header">
+      <h5>Hecho en Vue js</h5>
       <h1 class="mb-4">Buscar Usuarios de GitHub <i class="fas fa-search"></i></h1>
       <div class="container">
         <div class="row justify-content-center">
@@ -89,7 +90,6 @@ export default {
 .avatar {
   width: 50px;
   height: 1%;
-  border-radius: 50%;
   object-fit: cover;
 }
 
