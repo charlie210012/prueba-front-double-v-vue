@@ -97,12 +97,4 @@ export default {
   text-decoration: none;
 }
 
-.error {
-  margin-top: 10px;
-}
-
-.chart-container {
-  position: relative;
-  height: 300px;
-}
 </style>
